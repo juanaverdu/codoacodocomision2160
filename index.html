@@ -5,25 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase Git</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanuman&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 <body>
+    <div class="git"> 
     <h1>Códigos de Git</h1>
-    <ul>
-        <li>git init</li>
-        <li>git add *</li>
-        <li>git status</li>
-        <li>git commit -m "nuestro commit"</li>
-        <li>git push -u origin master</li>
-        <li>git clone</li>
-    </ul>
-    <p>Probando otra versión</p>
-    <div id="padre">
-        <div class="hija"></div>
-        <div class="hija"></div>
-        <div class="hija"></div>
-        <div class="hija"></div>
-        <div class="hija"></div>
+        <ul>
+            <li class="lista">git init</li>
+            <li class="lista">git add *</li>
+            <li class="lista">git status</li>
+            <li class="lista">git commit</li>
+            <li class="lista">git push</li>
+            <li class="lista"> git clone</li>
+        </ul>
     </div>
+
+    <div class="cuadrados">
+    <p>Probando otra versión</p>
+        <div id="padre">
+            <div class="hija"></div>
+            <div class="hija"></div>
+            <div class="hija"></div>
+            <div class="hija"></div>
+            <div class="hija"></div>
+        </div>
+    </div>
+
+    <div class="descr">
+    <div id=init>
+        <h2>Git init</h2>
+        <p>Crea un nuevo repositorio de Git</p>
+    </div>
+
+    <div id=add>
+        <h2>Git add *</h2>
+        <p>Añadir al espacio de trabajo los cambios</p>
+    </div>
+
+    <div id=status>
+        <h2>Git status</h2>
+        <p>Para ver el estado en el que se encuentra mi repositorio <b>local</b></p>    
+    </div>
+
+    <div id=commit>
+        <h2>git commit -m "nuestro commit"</h2>
+        <p>Para hacer una descripcion de ese cambio o versión de mi repoistorio local</p>    
+    </div>
+
+    <div id=push>
+        <h2>Git push -u origin master</h2>
+        <p>Para actualizar el repositorio con los cambios que hice de forma local</p>    
+    </div>
+
+    <div id=clone>
+        <h2>Git clone</h2>
+        <p>Para copiar un repositorio existente de Git de forma local</p>    
+    </div>
+    </div>
+    
 </body>
 </html>
