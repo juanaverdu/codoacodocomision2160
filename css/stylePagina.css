@@ -1,0 +1,27 @@
+header{
+    background-image: url(../imagenes/header.png);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    background-color: rgba(255, 255, 255, 0.37);
+    height: 40px;
+    padding: 5px;
+}
+nav{
+    position: fixed;
+    top: -18px;
+}
+nav ul li{
+    display: inline-block;
+    background-color: rgb(216, 193, 163);
+    padding: 5px;
+    cursor: pointer;
+}
+article{
+    background-color: rgb(204, 204, 204);
+    width: 90%;
+    margin-left: 5%;
+    padding: 8px;
+}
