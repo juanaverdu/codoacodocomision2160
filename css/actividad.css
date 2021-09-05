@@ -1,0 +1,19 @@
+.rojo{
+    background-color: red;
+    color: yellow;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    font-size: 50px;
+}
+.negro{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    font-size: 50px;
+}
+#cuadrados{
+    display: flex;
+}
