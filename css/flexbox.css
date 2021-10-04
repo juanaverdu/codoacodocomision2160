@@ -1,0 +1,26 @@
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.cuadro{
+    background-color: gray;
+    width: 20%;
+    height: 200px;
+    margin: 5px;
+    overflow: auto;
+}
+.cuadro p::before{
+    content: 'No se puede copiar :p';
+}
+.cuadro p::first-letter{
+    color: white;
+}
+footer{
+    background-color: teal;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}

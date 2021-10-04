@@ -1,0 +1,70 @@
+@keyframes mano{
+    from{color: plum; top: 50px}
+    to{color: pink; top: 250px}
+}
+#mano{
+    color: pink;
+    /* background-color: plum; */
+    animation-name: mano;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 3s;
+    position: absolute;
+    left: 250px;
+}
+
+#biohazard{
+    color: greenyellow;
+}
+.cuadros{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+@keyframes mover{
+    25%{top: 200px; left: 0px;}
+    50%{left: 220px;}
+    75%{top: 0px;}
+    100%{left: 0px;}
+}
+#uno, #tres{
+    background-color: powderblue;
+    position: relative;
+    animation-name: mover;
+    top: 0px;
+    animation-duration: 5s;
+}
+#dos, #cuatro{
+    position: relative;
+    animation-name: mover, mano;
+    animation-duration: 5s, 5s;
+    /* animation-iteration-count: infinite, infinite; */
+    animation-delay: 0s, 5s;
+}
+
+ul, li{
+    display: inline;
+    padding: 5px;
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+}
+ul, li:hover{
+    animation-name: menu;
+    animation-duration: 1s;
+}
+
+@keyframes menu {
+    0%{
+        padding: 5px;
+        background-color: palevioletred;
+        color: white
+    }
+    100%{
+        padding: 10px;
+        box-shadow: 2px 2px 2px oldlace;
+        color: black;
+    }
+}
