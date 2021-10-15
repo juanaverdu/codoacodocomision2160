@@ -5,10 +5,10 @@ html{
     opacity: 0.5;
 }
 .carouselBg{
-    background-color: black;
+    background-color: black !important;
 }
 .carouselBtn{
-    width: 50px !important;
+    width: 80px !important;
 }
 .navbar{
     background-color: #343a40;
