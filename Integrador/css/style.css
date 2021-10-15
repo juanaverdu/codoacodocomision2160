@@ -1,0 +1,52 @@
+html{
+    height: 100%;
+}
+.opacidad{
+    opacity: 0.5;
+}
+.carouselBg{
+    background-color: black;
+}
+.carouselBtn{
+    width: 50px !important;
+}
+.navbar{
+    background-color: #343a40;
+}
+.texto1{
+    position: relative;
+    margin-right: 10%;
+    margin-left: 55%;
+    margin-top: 25%;
+}
+.verdeBtn{
+    background-color: rgb(46, 172, 73) !important;
+    color: white !important
+}
+.verdeTxt{
+    color: rgb(46, 172, 73) !important;
+}
+.hawaii{
+    background-color: #343a40;
+    color: white;
+}
+u{
+    text-decoration-style: dotted;
+}
+.enviarBtn{
+    background-color: rgb(125, 194, 46) !important;
+    color: white !important
+}
+footer{
+    background: linear-gradient(to right, rgb(5, 45, 63), rgb(10, 73, 104));
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    display: inline;   
+    cursor: pointer;
+    padding: 15px;
+    margin-left: 20px;
+}
